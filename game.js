@@ -21,26 +21,29 @@ var _players = [new Player('Huey', _startingMoneyAmount),
                 new Player('Scrooge', _startingMoneyAmount)];
 var _dealer = new Dealer('Dealer');
 
-/*loop for 20 rounds {
-    create deck of Decks
+/*
+loop for 20 rounds {
 
-    Players Ante Up
+    create deck of Decks //shoe
 
-    dealer shuffles deck
+    players put in money //ante
+        every round, each player ante's $15
 
-    dealer deals cards to player and dealer
+    dealer shuffles deck - every round
 
-    dealer shows one card up (second card in hand)
+    dealer deals cards to players and dealer
+        dealer's first card is down, second is showing up
+        players cards are all face up
 
-    players cards are up
+    player 1 will evaluate and perform action (hit, stay, split double down....)
+        eventually must stay or bust
 
-    player 1 will evaluate and perform hit, stay, split, double down
+    dealer will evaluate then stay or hit
 
-    must stay or bust
+    reconcile - payout or collect ante
 
-    dealer will evaluate their hand and hit or stay
+}
 
-    dealer will payout or collect antes
-
-}*/
+print results
+*/
 
